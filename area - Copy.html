@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+<title>Template</title>
+    
+<meta charset="utf-8">
+    
+<style>
+    
+  article  .row {
+  display: flex;
+}
+
+article .column {
+  flex: 50%;
+}
+  article .column a:hover{
+
+       border-bottom: 6px solid;
+        border-color: #999;
+    }
+    footer {
+
+        display: block;
+
+        background-color: #162955; 
+    }
+    
+    footer .row{
+        
+                display: flex;
+    }
+    
+    footer .column{
+        
+        flex: 33%
+    }
+    footer p{
+        
+        color: white;
+    }
+</style>
+    
+</head>
+    
+<body>
+
+    <article>
+        <h1>Useful services around VIU.</h1>
+    <div class="row">
+  <div class="column">
+    <a href="https://viu.maps.arcgis.com/apps/instant/sidebar/index.html?appid=8afcee99e4fa4857a87a7c75a9f50277"><img src="PollutionMap.png" width="50%" alt="Thumbnail of Cedar Area South Pollution Map. When clicked, sends to Instant App."></a>
+      <p> Map of potential sites to store contaminents in Cedar Area South and the risk they pose of polluting both local surface water and groundwater.</p>
+      
+
+  </div>
+  <div class="column">
+       <a href="https://viu.maps.arcgis.com/apps/webappviewer/index.html?id=ae9f5199a1364be5a87c6c6e4c2b1c6d"><img src="WaterMainMap.png" width="65%" alt="Thumbnail of Theoretical Water Main in Nanaimo map."></a>
+    <p> Mapping the theoretical path of a new water main in Nanaimo, attaching two connecting valves. Best path calculated based on cost, which considers both material costs and average cost of developing within each zone types.</p>
+   </div>
+        </div>
+    </article>
+
+</body>
+</html>
